@@ -63,3 +63,14 @@ displayResult(playerMove, computerMove);
 buttonRock.addEventListener('click', function(){ buttonClicked('kamień'); });
 buttonPaper.addEventListener('click', function(){ buttonClicked('papier'); });
 buttonScissors.addEventListener('click', function(){ buttonClicked('nożyce'); });
+
+
+/**  Teraz czas na zastosowanie wiedzy o zmiennych w praktyce! Otwórz swój projekt z preworka JS 
+ i znajdź w nim plik js/script.js. Twoim zadaniem jest poprawa deklaracji zmiennych var na poprawne zastosowanie 
+ zmiennych let i stałych const, czyli:
+
+ - nie deklarujemy argumentów funkcji,
+ - jeśli to możliwe, używaj stałych,
+ - deklaracje stałych/zmiennych powinny być jak najbliżej miejsca ich wykorzystania, czyli staramy się używać możliwie małych zakresów,
+ - unikaj sytuacji, w których tuż pod deklaracją zmiennej nadajesz jej wartość – lepiej zrobić to od razu w deklaracji.
+*/
